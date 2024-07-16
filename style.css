@@ -1,7 +1,47 @@
+/*GENERAL STYLES*/
+
 body {
     background: #fefefe;
 }
 
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    padding: 20px 0;
+}
+
+/*INDEX STYLES*/
+
+.menu a{
+    color: rgb(20, 214, 20);
+    padding: 10px;
+    font-weight: bolder;
+}
+
 h2 {
     color: #1460AA;
+}
+
+/*DOGGIE STYLES*/
+
+.jack-russell {
+    color: rgb(145, 19, 19);
+}
+
+/*VIEW STYLES*/
+
+.landscape {
+    color: rgb(235, 184, 18);
+}
+
+/*FLOWERS STYLES*/
+
+.meadow {
+    color: rgb(219, 89, 111);
 }

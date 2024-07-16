@@ -1,6 +1,4 @@
 const firstName = 'Julia';
-const age = 39
 
-console.log(firstName);
-console.log(age);
-console.log(`Nazywam sie ${firstName} i mam ${age} lat.`);
+console.log(`zesc! Nazywam sie ${firstName}. Milo Cie widziec :D`);
+alert(`Czesc! Nazywam sie ${firstName}. Milo Cie widziec :D`);
