@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    padding: 10px;
 }
 
 *, *:before, *:after {
@@ -28,7 +29,7 @@ img {
 
 /*INDEX STYLES*/
 
-.menu a{
+.navigation a{
     color: rgb(20, 214, 20);
     padding: 10px;
     font-weight: bolder;
