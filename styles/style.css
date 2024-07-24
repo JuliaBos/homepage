@@ -1,4 +1,14 @@
-/*GENERAL STYLES*/
+/*RESET*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*GENERAL*/
 
 body {
     background: #fefefe;
