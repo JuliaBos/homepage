@@ -28,7 +28,7 @@ h1 {
     background: #0f58a1;
 }
 
-nav>a {
+nav a {
     color: white;
 }
 
@@ -64,6 +64,20 @@ h2 {
     background-color: #97999a;
     padding: 0 4px;
     margin-bottom: 5px;
+}
+
+table {
+    border: 1px dashed hotpink;
+    text-align: center;
+    width: 50%;
+}
+
+table caption {
+    margin-bottom: 1rem;
+}
+
+td {
+    border: 1px dashed hotpink;
 }
 
 .footer {
@@ -105,3 +119,29 @@ h2 {
 .meadow {
     color: rgb(219, 89, 111);
 }
+ 
+/*mozna nadpisac tez styl dodajac !important
+
+p {
+color: red !important;
+color: inherit; - dziedziczy po rodzicu bezposrednio
+}
+
+html body h1#main-header { --- wszystkie h1 o id main-header w body
+    color: yellow;
+}
+
+WAZNOSC STYLI: !important style="" #name .name element 
+
+KODY HTTP
+inspect-> Network-> status-> 200 OK; 404 ERROR; 30x PRZEKIEROWANIE(nie jestes w dobrym miejscu,ale ja wiem gdzie masz byc i tam Cie skieruje); 50x BLAD WEWN SERWERA; 
+
+1xx: hold on
+2xx: here you go
+3xx: go away
+4xx: you fucked up
+5xx: I fucked up
+
+ROOT / :
+dodajac / do sciezki do zasobow (img, styles.css, main.js, video etc...src="/...") musi byc jak wrzucamy strone na serwer!!! (pobiera zasoby do glownej strony.
+*/

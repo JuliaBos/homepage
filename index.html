@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF, co ten frontend</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
   </head>
   <body>
+    <!--si se mete en devtools al body style contenteditable; se puede cambiar el content de la página de html directamente-->
+    <!--ctrl+shift+p skrot do edytora i format document lub shift+alt+f-->
 
     <header class="header">
       <nav>
@@ -19,24 +21,80 @@
 
     <main>
       <section class="section">
-        <h1 class="section__header">Notatki z lekcji WTF, co ten Frontend</h1>
-        <img class="section__image" src="images/pippi.png" alt="Pippi">
+        <h1 class="section__header section__header--js">Notatki z lekcji WTF, co ten Frontend</h1>
+        <img class="section__image" src="images/pippi.png" alt="Pippi" />
         <p class="section__paragraph">Na stronce znajdziecie notatki z kursu</p>
       </section>
 
       <section class="section">
         <h2 class="section__header section__header--special">NOTATKI</h2>
         <article class="my-article">
-          <h3 class="my-article__header">dodajemy gita</h3>
+          <!-- style="color: yellow" inline style -->
+          <h3 class="my-article__header" style="color: yellowgreen;">dodajemy gita</h3>
           <p class="my-article__paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue lacus eu velit laoreet, non commodo turpis sagittis. Vestibulum dictum interdum dolor in vulputate. Integer non ornare massa, quis porta.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <!--strong - wysoka istotnosc i powaznosc frazy-->
+            Pellentes que congue lacus eu <strong> velit laoreet</strong>, non commodo turpis
+            sagittis. 
+            <!-- em - jak italics,  podkresla ze tekst moze miec inne znaczenie, np. ironie-->
+            <em> Vestibulum </em> dictum interdum dolor in vulputate. Integer non
+            ornare massa, quis porta.
           </p>
         </article>
         <article class="my-article">
-          <h3 class="my-article__header">display, boxy, pozycjonowanie i BEM</h3>
+          <h3 class="my-article__header">
+            display, boxy, pozycjonowanie i BEM
+          </h3>
           <p class="my-article__paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue lacus eu velit laoreet, non commodo turpis sagittis. Vestibulum dictum interdum dolor in vulputate. Integer non ornare massa, quis porta.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque congue lacus eu velit laoreet, non commodo turpis
+            sagittis. Vestibulum dictum interdum dolor in vulputate. Integer non
+            ornare massa, quis porta.
           </p>
+        </article>
+        <article class="my-article">
+          <h3 class="my-article__header">Listy i tabela</h3>
+          <p class="my-article__paragraph">
+            <ul>
+              <li>unordered</li>
+              <li>list</li>
+            </ul>
+            <ol>
+              <li>ordered</li>
+              <li>list</li>
+            </ol>
+            <dl>
+              <dt>description term</dt>
+              <dd>description details</dd>
+            </dl>
+          </p>
+          <table>
+            <caption>tabela emotkow</caption>
+            <thead>
+              <tr>
+                <td>PON</td>
+                <td>WTO</td>
+                <td>SRO</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>🫥</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>😍</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>😂</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </article>
         <article class="my-article">
           <h3 class="my-article__header">JavaScript</h3>
@@ -46,10 +104,12 @@
     </main>
 
     <footer class="footer">
-      <p class="footer__content">Wszelkie prawa zastzrzezone &copy;2024</p>
-      <a class="footer__top-link" href="#top">Do góry ⬆️</a>
+      <p class="footer__content">Wszelkie prawa zastrzezone &copy;2024</p>
+      <!-- <a href="" target="_blank" - nowe okno-->
+      <a class="footer__top-link" href="#top">Do góry ⬆️</a> <!-- href="#..." desvia a id que va despues del # ; WIN + . para emoji-->
     </footer>
 
-    <script defer src="main.js"></script> <!--defer, szybsze i bardziej plynne ladowanie strony-->
+    <script defer src="main.js"></script>
+    <!--defer, szybsze i bardziej plynne ladowanie strony-->
   </body>
 </html>
